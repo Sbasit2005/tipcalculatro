@@ -41,5 +41,8 @@ function calcTip() {
   total.innerHTML = totalbill;
   people.innerHTML = dividedbill;
 
-
+tip.innerHTML = "$" + totalTip.toFixed(2);
+  tip.innerHTML = "$" + billAMT.toFixed(2);
+  tip.innerHTML = "$" + totalBill.toFixed(2);
+  tip.innerHTML = "$" + perPerson.toFixed(2);
 }
